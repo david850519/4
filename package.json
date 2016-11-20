@@ -1,22 +1,26 @@
 {
-  "name": "heroku_test",
-  "version": "1.0.0",
-  "description": "hi",
-  "main": "helloworld.js",
+  "name": "node-js-getting-started",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/david850519/heroku_test.git"
+    "url": "https://github.com/david850519/4"
   },
   "keywords": [
-    "helloword"
+    "node",
+    "heroku",
+    "express"
   ],
-  "author": "david",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/david850519/heroku_test/issues"
-  },
-  "homepage": "https://github.com/david850519/heroku_test#readme"
+  "license": "MIT"
 }
